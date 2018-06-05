@@ -3,30 +3,34 @@
 var results = []
 
 function paragraphSelector(){
-  var x= $('p')
+  var x= $('p');
   console.log(x);
-  results.push(x)
+  results.push(x);
   return $(x);
-};
+}
 
 lastImageSelector(){
-  console.log($('img:last'));
-  return $('img:last');
+  var x = $('img:last');
+  console.log(x);
+  return x;
 };
 
 ninjaBabySelector(){
-  console.log($('img#baby-ninja'));
-  return $('img#baby-ninja');
+  var x = $('img#baby-ninja');
+  console.log(x);
+  return x;
 };
 
 divSelector(){
-  console.log($('.pics'));
-  return $('.pics');
+  var x = $('.pics');
+  console.log(x);
+  return x;
 };
 
 firstListItem(){
-  console.log($('ul #pic-list:first-child'));
-  return $('ul #pic-list:first-child');
+  var x = $('ul #pic-list:first-child');
+  console.log(x);
+  return x;
 };
 
 paragraphSelector()
