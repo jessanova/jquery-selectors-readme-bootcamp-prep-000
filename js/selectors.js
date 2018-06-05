@@ -7,3 +7,7 @@ function paragraphSelector(){
 lastImageSelector(){
   return $('img:last')
 }
+
+ninjaBabySelector(){
+  return $('img[alt=""]')
+}
