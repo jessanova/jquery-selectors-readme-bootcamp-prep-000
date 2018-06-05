@@ -24,3 +24,9 @@ firstListItem(){
   console.log($('ul #pic-list:first-child'));
   return $('ul #pic-list:first-child');
 };
+
+paragraphSelector()
+lastImageSelector()
+ninjaBabySelector()
+divSelector()
+firstListItem()
