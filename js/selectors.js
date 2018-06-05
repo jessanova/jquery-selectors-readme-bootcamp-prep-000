@@ -1,8 +1,12 @@
 // declare your functions here...
 
+var results = []
+
 function paragraphSelector(){
-  console.log($('p'));
-  return $('p');
+  var x= $('p')
+  console.log(x);
+  results.push(x)
+  return $(x);
 };
 
 lastImageSelector(){
