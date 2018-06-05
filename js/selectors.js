@@ -33,8 +33,8 @@ function firstListItem(){
   return x;
 };
 
-paragraphSelector()
-lastImageSelector()
-ninjaBabySelector()
-divSelector()
-firstListItem()
+//paragraphSelector()
+//lastImageSelector()
+//ninjaBabySelector()
+//divSelector()
+//firstListItem()
