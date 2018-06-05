@@ -9,25 +9,25 @@ function paragraphSelector(){
   return $(x);
 }
 
-lastImageSelector(){
+function lastImageSelector(){
   var x = $('img:last');
   console.log(x);
   return x;
 };
 
-ninjaBabySelector(){
+function ninjaBabySelector(){
   var x = $('img#baby-ninja');
   console.log(x);
   return x;
 };
 
-divSelector(){
+function divSelector(){
   var x = $('.pics');
   console.log(x);
   return x;
 };
 
-firstListItem(){
+function firstListItem(){
   var x = $('ul #pic-list:first-child');
   console.log(x);
   return x;
