@@ -9,5 +9,5 @@ lastImageSelector(){
 }
 
 ninjaBabySelector(){
-  return $('img[alt=""]')
+  return $('img#baby-ninja')
 }
